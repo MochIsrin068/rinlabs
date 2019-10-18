@@ -1,4 +1,4 @@
-baseurl = "https://rindev.com/"
+baseurl = "https://rindev.netlify.com"
 title = "Rindev"
 theme = "pulp"
 canonifyurls = true
