@@ -1,0 +1,45 @@
+baseurl = "https://rindev.com/"
+title = "Rindev"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Muhammad Isrim Yb"
+    avatar = "profile.jpg"
+    favicon = "dsc.png"
+    description = """
+        My Name is Muhammad Isrim Yambi baso call me Isrin, i'm a web and mobile developer, i'm also CEO and Founder Ruang Developer, Ruang developer is a platform that connects all developers in Indonesia to share knowledge and contribute to open source projects.  now i'm work as android developer at Technos Studio, is one of Software House in my City, Kendari. i'm open source enthusiast, many project already i done and i'm publish on open source platform to all people use it, i like do it because i'm like sharing my knowledge althought small, but can giving impact to many people.
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/IsrinMoch"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/MochIsrin068"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "https://isrin068@gmail.com"
+    weight = 40
