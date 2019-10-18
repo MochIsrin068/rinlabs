@@ -43,3 +43,10 @@ hasCJKLanguage = true
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "https://isrin068@gmail.com"
     weight = 40
+    
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "LinkedIn"
+    pre = "<i class='fa fa-linkedin fa-lg'></i>"
+    url = "https://linkedin.com/in/muhammad-isrim-yambi-b-31171016a/"
+    weight = 40
